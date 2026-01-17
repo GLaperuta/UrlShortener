@@ -1,0 +1,32 @@
+{
+  "version": 2,
+  "dgSpecHash": "DcXmCke96yg=",
+  "success": false,
+  "projectFilePath": "C:\\Users\\Gilson\\source\\repos\\UrlShotener\\UrlShortener.Application\\UrlShortener.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Gilson\\.nuget\\packages\\microsoft.entityframeworkcore\\10.0.2\\microsoft.entityframeworkcore.10.0.2.nupkg.sha512",
+    "C:\\Users\\Gilson\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\10.0.2\\microsoft.entityframeworkcore.abstractions.10.0.2.nupkg.sha512",
+    "C:\\Users\\Gilson\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\10.0.2\\microsoft.entityframeworkcore.analyzers.10.0.2.nupkg.sha512",
+    "C:\\Users\\Gilson\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\10.0.2\\microsoft.extensions.caching.abstractions.10.0.2.nupkg.sha512",
+    "C:\\Users\\Gilson\\.nuget\\packages\\microsoft.extensions.caching.memory\\10.0.2\\microsoft.extensions.caching.memory.10.0.2.nupkg.sha512",
+    "C:\\Users\\Gilson\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\10.0.2\\microsoft.extensions.dependencyinjection.10.0.2.nupkg.sha512",
+    "C:\\Users\\Gilson\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.2\\microsoft.extensions.dependencyinjection.abstractions.10.0.2.nupkg.sha512",
+    "C:\\Users\\Gilson\\.nuget\\packages\\microsoft.extensions.logging\\10.0.2\\microsoft.extensions.logging.10.0.2.nupkg.sha512",
+    "C:\\Users\\Gilson\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\10.0.2\\microsoft.extensions.logging.abstractions.10.0.2.nupkg.sha512",
+    "C:\\Users\\Gilson\\.nuget\\packages\\microsoft.extensions.options\\10.0.2\\microsoft.extensions.options.10.0.2.nupkg.sha512",
+    "C:\\Users\\Gilson\\.nuget\\packages\\microsoft.extensions.primitives\\10.0.2\\microsoft.extensions.primitives.10.0.2.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1108",
+      "level": "Error",
+      "message": "Ciclo detectado. \r\n  UrlShortener.Application -> UrlShortener.Infra -> UrlShortener.Application.",
+      "projectPath": "C:\\Users\\Gilson\\source\\repos\\UrlShotener\\UrlShortener.Application\\UrlShortener.Application.csproj",
+      "filePath": "C:\\Users\\Gilson\\source\\repos\\UrlShotener\\UrlShortener.Application\\UrlShortener.Application.csproj",
+      "libraryId": "UrlShortener.Application",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
+}

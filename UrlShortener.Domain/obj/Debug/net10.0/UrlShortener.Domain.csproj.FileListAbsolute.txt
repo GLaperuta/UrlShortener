@@ -1,0 +1,15 @@
+C:\Users\Gilson\source\repos\UrlShotener\UrlShortener.Domain\bin\Debug\net10.0\UrlShortener.Domain.deps.json
+C:\Users\Gilson\source\repos\UrlShotener\UrlShortener.Domain\bin\Debug\net10.0\UrlShortener.Domain.dll
+C:\Users\Gilson\source\repos\UrlShotener\UrlShortener.Domain\bin\Debug\net10.0\UrlShortener.Domain.pdb
+C:\Users\Gilson\source\repos\UrlShotener\UrlShortener.Domain\bin\Debug\net10.0\UrlShortener.Shared.dll
+C:\Users\Gilson\source\repos\UrlShotener\UrlShortener.Domain\bin\Debug\net10.0\UrlShortener.Shared.pdb
+C:\Users\Gilson\source\repos\UrlShotener\UrlShortener.Domain\obj\Debug\net10.0\UrlShortener.Domain.csproj.AssemblyReference.cache
+C:\Users\Gilson\source\repos\UrlShotener\UrlShortener.Domain\obj\Debug\net10.0\UrlShortener.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gilson\source\repos\UrlShotener\UrlShortener.Domain\obj\Debug\net10.0\UrlShortener.Domain.AssemblyInfoInputs.cache
+C:\Users\Gilson\source\repos\UrlShotener\UrlShortener.Domain\obj\Debug\net10.0\UrlShortener.Domain.AssemblyInfo.cs
+C:\Users\Gilson\source\repos\UrlShotener\UrlShortener.Domain\obj\Debug\net10.0\UrlShortener.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Gilson\source\repos\UrlShotener\UrlShortener.Domain\obj\Debug\net10.0\UrlShort.B6F195E3.Up2Date
+C:\Users\Gilson\source\repos\UrlShotener\UrlShortener.Domain\obj\Debug\net10.0\UrlShortener.Domain.dll
+C:\Users\Gilson\source\repos\UrlShotener\UrlShortener.Domain\obj\Debug\net10.0\refint\UrlShortener.Domain.dll
+C:\Users\Gilson\source\repos\UrlShotener\UrlShortener.Domain\obj\Debug\net10.0\UrlShortener.Domain.pdb
+C:\Users\Gilson\source\repos\UrlShotener\UrlShortener.Domain\obj\Debug\net10.0\ref\UrlShortener.Domain.dll

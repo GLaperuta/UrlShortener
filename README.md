@@ -20,39 +20,43 @@ UrlShortener
 
 Essa separação garante:
 
-Baixo acoplamento
+✔ Baixo acoplamento
 
-Alta coesão
+✔ Alta coesão
 
-Facilidade de manutenção
+✔ Facilidade de manutenção
 
-Testabilidade
+✔ Testabilidade
 
 ⚙️ Tecnologias utilizadas
 
-.NET (Minimal API)
+✔ .NET 10
 
-C#
+✔ ASP.NET Core (Minimal API)
 
-Entity Framework Core (InMemory Database)
+✔ C#
 
-Swagger / OpenAPI
+✔ Entity Framework Core (InMemory Database)
 
-DDD + Clean Architecture
+✔ Swagger / OpenAPI
+
+✔ DDD + Clean Architecture
+
+✔ Injeção de Dependência (DI)
 
 🚀 Funcionalidades
 
-Criar URLs encurtadas
+✔ Criar URLs encurtadas
 
-Resolver URLs curtas e redirecionar para a original
+✔ Resolver URLs curtas e redirecionar para a original
 
-Listar todas as URLs criadas
+✔ Listar todas as URLs criadas
 
-Deletar uma URL encurtada
+✔ Deletar uma URL encurtada
 
-Contador de acessos
+✔ Contador de acessos
 
-Redirecionamento automático via navegador
+✔ Redirecionamento automático via navegador
 
 📌 Endpoints
 🔹 Criar uma URL encurtada
@@ -114,13 +118,13 @@ Não há necessidade de configurar SQL Server ou outro banco.
 
 Este projeto tem foco educacional e arquitetural, demonstrando como aplicar boas práticas de desenvolvimento em um problema simples:
 
-Separação clara de responsabilidades
+✔ Separação clara de responsabilidades
 
-Uso correto de DTOs
+✔ Uso correto de DTOs
 
-Domínio isolado de infraestrutura
+✔ Domínio isolado de infraestrutura
 
-Código organizado e profissional
+✔ Código organizado e profissional
 
 ✨ Exemplo de execução
 

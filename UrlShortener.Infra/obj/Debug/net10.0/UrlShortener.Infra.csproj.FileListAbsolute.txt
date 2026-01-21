@@ -9,11 +9,10 @@ C:\Users\Gilson\source\repos\UrlShotener\UrlShortener.Infra\obj\Debug\net10.0\Ur
 C:\Users\Gilson\source\repos\UrlShotener\UrlShortener.Infra\obj\Debug\net10.0\refint\UrlShortener.Infra.dll
 C:\Users\Gilson\source\repos\UrlShotener\UrlShortener.Infra\obj\Debug\net10.0\UrlShortener.Infra.pdb
 C:\Users\Gilson\source\repos\UrlShotener\UrlShortener.Infra\obj\Debug\net10.0\ref\UrlShortener.Infra.dll
-C:\Users\Gilson\source\repos\UrlShotener\UrlShortener.Infra\bin\Debug\net10.0\UrlShortener.Application.dll
 C:\Users\Gilson\source\repos\UrlShotener\UrlShortener.Infra\bin\Debug\net10.0\UrlShortener.Domain.dll
 C:\Users\Gilson\source\repos\UrlShotener\UrlShortener.Infra\bin\Debug\net10.0\UrlShortener.Shared.dll
-C:\Users\Gilson\source\repos\UrlShotener\UrlShortener.Infra\bin\Debug\net10.0\UrlShortener.Application.pdb
 C:\Users\Gilson\source\repos\UrlShotener\UrlShortener.Infra\bin\Debug\net10.0\UrlShortener.Domain.pdb
 C:\Users\Gilson\source\repos\UrlShotener\UrlShortener.Infra\bin\Debug\net10.0\UrlShortener.Shared.pdb
 C:\Users\Gilson\source\repos\UrlShotener\UrlShortener.Infra\obj\Debug\net10.0\UrlShortener.Infra.csproj.AssemblyReference.cache
 C:\Users\Gilson\source\repos\UrlShotener\UrlShortener.Infra\obj\Debug\net10.0\UrlShort.67A46E45.Up2Date
+C:\Users\Gilson\source\repos\UrlShotener\UrlShortener.Infra\obj\Debug\net10.0\UrlShortener.Infra.sourcelink.json

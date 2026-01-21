@@ -55,7 +55,7 @@ app.MapGet("/api/urls", async (IUrlService urlService) =>
 });
 
 //POST
-app.MapPost("/api/create", async (CreateUrlDto url, IUrlService urlService) =>
+app.MapPost("/api/create", async (string url, IUrlService urlService) =>
 {
     var urlResponse = await urlService.CreateUrl(url);
 

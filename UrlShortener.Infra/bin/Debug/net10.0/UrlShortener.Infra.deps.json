@@ -9,7 +9,6 @@
       "UrlShortener.Infra/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "10.0.2",
-          "UrlShortener.Application": "1.0.0",
           "UrlShortener.Domain": "1.0.0"
         },
         "runtime": {
@@ -126,17 +125,6 @@
           }
         }
       },
-      "UrlShortener.Application/1.0.0": {
-        "dependencies": {
-          "UrlShortener.Domain": "1.0.0"
-        },
-        "runtime": {
-          "UrlShortener.Application.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
       "UrlShortener.Domain/1.0.0": {
         "dependencies": {
           "UrlShortener.Shared": "1.0.0"
@@ -233,11 +221,6 @@
       "sha512": "sha512-QmSiO+oLBEooGgB3i0GRXyeYRDHjllqt3k365jwfZlYWhvSHA3UL2NEVV5m8aZa041eIlblo6KMI5txvTMpTwA==",
       "path": "microsoft.extensions.primitives/10.0.2",
       "hashPath": "microsoft.extensions.primitives.10.0.2.nupkg.sha512"
-    },
-    "UrlShortener.Application/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
     },
     "UrlShortener.Domain/1.0.0": {
       "type": "project",

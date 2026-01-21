@@ -78,7 +78,8 @@
       },
       "UrlShortener.Application/1.0.0": {
         "dependencies": {
-          "UrlShortener.Domain": "1.0.0"
+          "UrlShortener.Domain": "1.0.0",
+          "UrlShortener.Infra": "1.0.0"
         },
         "runtime": {
           "UrlShortener.Application.dll": {
@@ -101,7 +102,6 @@
       "UrlShortener.Infra/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "10.0.2",
-          "UrlShortener.Application": "1.0.0",
           "UrlShortener.Domain": "1.0.0"
         },
         "runtime": {

@@ -44,3 +44,4 @@ C:\Users\Gilson\source\repos\UrlShotener\UrlShortener.API\bin\Debug\net10.0\UrlS
 C:\Users\Gilson\source\repos\UrlShotener\UrlShortener.API\bin\Debug\net10.0\UrlShortener.Domain.pdb
 C:\Users\Gilson\source\repos\UrlShotener\UrlShortener.API\bin\Debug\net10.0\UrlShortener.Shared.pdb
 C:\Users\Gilson\source\repos\UrlShotener\UrlShortener.API\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Gilson\source\repos\UrlShotener\UrlShortener.API\obj\Debug\net10.0\UrlShortener.API.sourcelink.json

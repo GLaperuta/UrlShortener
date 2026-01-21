@@ -193,20 +193,6 @@
           "buildTransitive/net8.0/_._": {}
         }
       },
-      "UrlShortener.Application/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v10.0",
-        "dependencies": {
-          "UrlShortener.Domain": "1.0.0",
-          "UrlShortener.Infra": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/UrlShortener.Application.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/UrlShortener.Application.dll": {}
-        }
-      },
       "UrlShortener.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
@@ -576,11 +562,6 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "UrlShortener.Application/1.0.0": {
-      "type": "project",
-      "path": "../UrlShortener.Application/UrlShortener.Application.csproj",
-      "msbuildProject": "../UrlShortener.Application/UrlShortener.Application.csproj"
-    },
     "UrlShortener.Domain/1.0.0": {
       "type": "project",
       "path": "../UrlShortener.Domain/UrlShortener.Domain.csproj",
@@ -595,7 +576,6 @@
   "projectFileDependencyGroups": {
     "net10.0": [
       "Microsoft.EntityFrameworkCore >= 10.0.2",
-      "UrlShortener.Application >= 1.0.0",
       "UrlShortener.Domain >= 1.0.0"
     ]
   },
@@ -631,9 +611,6 @@
         "net10.0": {
           "targetAlias": "net10.0",
           "projectReferences": {
-            "C:\\Users\\Gilson\\source\\repos\\UrlShotener\\UrlShortener.Application\\UrlShortener.Application.csproj": {
-              "projectPath": "C:\\Users\\Gilson\\source\\repos\\UrlShotener\\UrlShortener.Application\\UrlShortener.Application.csproj"
-            },
             "C:\\Users\\Gilson\\source\\repos\\UrlShotener\\UrlShortener.Domain\\UrlShortener.Domain.csproj": {
               "projectPath": "C:\\Users\\Gilson\\source\\repos\\UrlShotener\\UrlShortener.Domain\\UrlShortener.Domain.csproj"
             }
@@ -954,16 +931,5 @@
         }
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1108",
-      "level": "Error",
-      "message": "Ciclo detectado. \r\n  UrlShortener.Infra -> UrlShortener.Application -> UrlShortener.Infra.",
-      "libraryId": "UrlShortener.Infra",
-      "targetGraphs": [
-        "net10.0"
-      ]
-    }
-  ]
+  }
 }

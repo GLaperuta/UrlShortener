@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Text;
 using UrlShortener.Shared.Securtiy;
 
@@ -7,6 +8,7 @@ namespace UrlShortener.Domain.Models;
 
 public class UrlShort
 {
+    [Key]
     public string ShortCode { get; private set; } = string.Empty;
     public string OriginalUrl { get; private set; } = string.Empty;
     public long UrlAcessCount { get; set; }

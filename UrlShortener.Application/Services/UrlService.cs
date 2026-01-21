@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using UrlShortener.Application.DTO;
 using UrlShortener.Application.Services.Interfaces;
+using UrlShortener.Domain.Models;
 using UrlShortener.Infra.Repositories.Interfaces;
 
 namespace UrlShortener.Application.Services;
@@ -17,23 +18,56 @@ public class UrlService : IUrlService
         _repository = repository;
     }
 
-    public Task<UrlResponseDto> CreateUrl(CreateUrlDto url)
+    public async Task<UrlResponseDto> CreateUrl(string url)
     {
-        throw new NotImplementedException();
+        var entry = new UrlShort(url);
+        await _repository.Add(entry);
+        await _repository.SaveChanges();
+
+        return new UrlResponseDto()
+        {
+            ShortCode = entry.ShortCode,
+            OriginalUrl = entry.OriginalUrl,
+            UrlAcessCount = entry.UrlAcessCount,
+            CreatedAt = entry.CreatedAt
+        };
     }
 
-    public Task DeleteUrl(string url)
+    public async Task DeleteUrl(string url)
     {
-        throw new NotImplementedException();
+        await _repository.Delete(url);
+        await _repository.SaveChanges();
     }
 
-    public Task<IEnumerable<UrlResponseDto>> GetAll()
+    public async Task<IEnumerable<UrlResponseDto>> GetAll()
     {
-        throw new NotImplementedException();
+        var urls = await _repository.Get();
+
+        return urls.Select(entry => new UrlResponseDto()
+        {
+            ShortCode = entry.ShortCode,
+            OriginalUrl = entry.OriginalUrl,
+            UrlAcessCount = entry.UrlAcessCount,
+            CreatedAt = entry.CreatedAt
+        }).ToList();
+
     }
 
-    public Task<UrlResponseDto> GetUrl(string url)
+    public async Task<UrlResponseDto> GetUrl(string url)
     {
-        throw new NotImplementedException();
+
+        var entry = await _repository.Get(url);
+
+        if (entry == null)
+            throw new KeyNotFoundException("URL not found");
+
+        return new UrlResponseDto()
+        {
+            ShortCode = entry.ShortCode,
+            OriginalUrl = entry.OriginalUrl,
+            UrlAcessCount = entry.UrlAcessCount,
+            CreatedAt = entry.CreatedAt
+        };
+
     }
 }

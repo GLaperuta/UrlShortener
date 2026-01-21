@@ -26,7 +26,7 @@ public class UrlRepository : IUrlRepository
     {
         var urlShort = await _context.UrlShorts.FindAsync(shortCode);
 
-        if (urlShort != null)
+        if (urlShort == null)
             throw new KeyNotFoundException("URL not found");
 
         _context.UrlShorts.Remove(urlShort!);

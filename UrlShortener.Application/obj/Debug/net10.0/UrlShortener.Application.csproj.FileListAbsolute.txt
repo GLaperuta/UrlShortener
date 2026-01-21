@@ -15,3 +15,6 @@ C:\Users\Gilson\source\repos\UrlShotener\UrlShortener.Application\bin\Debug\net1
 C:\Users\Gilson\source\repos\UrlShotener\UrlShortener.Application\bin\Debug\net10.0\UrlShortener.Shared.pdb
 C:\Users\Gilson\source\repos\UrlShotener\UrlShortener.Application\obj\Debug\net10.0\UrlShortener.Application.csproj.AssemblyReference.cache
 C:\Users\Gilson\source\repos\UrlShotener\UrlShortener.Application\obj\Debug\net10.0\UrlShort.95A5A48A.Up2Date
+C:\Users\Gilson\source\repos\UrlShotener\UrlShortener.Application\bin\Debug\net10.0\UrlShortener.Infra.dll
+C:\Users\Gilson\source\repos\UrlShotener\UrlShortener.Application\bin\Debug\net10.0\UrlShortener.Infra.pdb
+C:\Users\Gilson\source\repos\UrlShotener\UrlShortener.Application\obj\Debug\net10.0\UrlShortener.Application.sourcelink.json

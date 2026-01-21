@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "p6XEh0jVOnI=",
-  "success": false,
+  "dgSpecHash": "g59Xd4RqtjE=",
+  "success": true,
   "projectFilePath": "C:\\Users\\Gilson\\source\\repos\\UrlShotener\\UrlShortener.Infra\\UrlShortener.Infra.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Gilson\\.nuget\\packages\\microsoft.entityframeworkcore\\10.0.2\\microsoft.entityframeworkcore.10.0.2.nupkg.sha512",
@@ -16,17 +16,5 @@
     "C:\\Users\\Gilson\\.nuget\\packages\\microsoft.extensions.options\\10.0.2\\microsoft.extensions.options.10.0.2.nupkg.sha512",
     "C:\\Users\\Gilson\\.nuget\\packages\\microsoft.extensions.primitives\\10.0.2\\microsoft.extensions.primitives.10.0.2.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1108",
-      "level": "Error",
-      "message": "Ciclo detectado. \r\n  UrlShortener.Infra -> UrlShortener.Application -> UrlShortener.Infra.",
-      "projectPath": "C:\\Users\\Gilson\\source\\repos\\UrlShotener\\UrlShortener.Infra\\UrlShortener.Infra.csproj",
-      "filePath": "C:\\Users\\Gilson\\source\\repos\\UrlShotener\\UrlShortener.Infra\\UrlShortener.Infra.csproj",
-      "libraryId": "UrlShortener.Infra",
-      "targetGraphs": [
-        "net10.0"
-      ]
-    }
-  ]
+  "logs": []
 }
